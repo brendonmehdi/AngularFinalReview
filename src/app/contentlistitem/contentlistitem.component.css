@@ -1,0 +1,22 @@
+.container {
+  display: block;
+  align-items: center;
+
+}
+
+img {
+  max-width: 20%;
+  max-height:15%;
+  float: left;
+}
+
+p, h2{
+  /*text-align: left;*/
+ margin-bottom: 5px;
+  margin-left: 200px;
+}
+
+
+.name {
+  cursor: pointer; /* Suggests this element is clickable */
+}

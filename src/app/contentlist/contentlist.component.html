@@ -1,0 +1,18 @@
+
+
+<h2>Year 1</h2>
+<div *ngFor="let item of contents | filterIContent:'1'; let i = index">
+  <app-contentlistitem [contentItem]="item"></app-contentlistitem>
+</div>
+
+
+<h2>Year 2</h2>
+<div *ngFor="let item of contents | filterIContent:'2'; let i = index">
+  <app-contentlistitem [contentItem]="item"></app-contentlistitem>
+</div>
+
+<h2>Year 3</h2>
+<div *ngFor="let item of contents | filterIContent:'3'; let i = index">
+  <app-contentlistitem [contentItem]="item"></app-contentlistitem>
+</div>
+

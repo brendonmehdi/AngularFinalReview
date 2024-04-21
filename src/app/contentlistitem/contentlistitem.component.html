@@ -1,0 +1,17 @@
+
+<!-- updated below to use isodd to determine if the spot in the arrray is odd to aplly proper class name for css -->
+<div class="container" [appStyleContent]="contentItem!">
+  <img [src]="contentItem?.imgSrc" alt="{{ contentItem?.name }}">
+  <h2 class="name">Name: {{ contentItem?.name }}    </h2>
+  <br/>
+
+  <p> Course: {{ contentItem?.course }}   ,</p>
+  <p>Birthday: {{ contentItem?.birth }}   ,</p>
+  <p>Grade: {{contentItem?.grade}}</p>
+  <p>Year: {{contentItem?.year}}</p>
+
+</div>
+
+
+
+
